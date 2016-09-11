@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2770111172,
+              "status": "passed"
+            },
+            "match": {
+              "location": "outFitteryImpl.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To verify the starting price for the shirts",
+        "description": "",
+        "id": "to-check-the-starting-price-for-shirts;to-verify-the-starting-price-for-the-shirts",
+        "after": [
+          {
+            "result": {
+              "duration": 603624400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "outFitteryImpl.tierDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10616306754,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am an user of Outfittery webportal",
+            "match": {
+              "location": "outFitteryImpl.i_am_an_user_of_Outfittery_webportal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2325629918,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the Prices option from the home page",
+            "match": {
+              "location": "outFitteryImpl.i_click_on_the_Prices_option_from_the_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39897535,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should able to see the starting price of all the products",
+            "match": {
+              "location": "outFitteryImpl.i_should_able_to_see_the_starting_price_of_all_the_products()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79564448,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Starting price for the shirts should be \"40€\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "40€",
+                  "offset": 41
+                }
+              ],
+              "location": "outFitteryImpl.starting_price_for_the_shirts_should_be(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@WebOutfitteryPriceSearchTest"
+          }
+        ]
+      }
+    ],
+    "name": "To check the Starting price for Shirts",
+    "description": "",
+    "id": "to-check-the-starting-price-for-shirts",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/OutFittery.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Outfittery"
+      }
+    ]
+  }
+]

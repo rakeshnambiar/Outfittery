@@ -1,0 +1,208 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8574613451,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BookingsDotComImpl.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To Check the Hotel search for a given city",
+        "description": "",
+        "id": "to-verify-the-hotel-search-in-bookings.com;to-check-the-hotel-search-for-a-given-city",
+        "after": [
+          {
+            "result": {
+              "duration": 1733217972,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BookingsDotComImpl.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 675278528,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am installing the Bookings.com application",
+            "match": {
+              "location": "BookingsDotComImpl.i_am_installing_the_Bookings_com_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5115511743,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the Search hotel page",
+            "match": {
+              "location": "BookingsDotComImpl.i_navigate_to_the_Search_hotel_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16445761799,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select the City \"Dubai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dubai",
+                  "offset": 17
+                }
+              ],
+              "location": "BookingsDotComImpl.select_the_City(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3216608548,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click the Search Hotel button",
+            "match": {
+              "location": "BookingsDotComImpl.click_the_Search_Hotel_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256007,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should able to see all the available hotels in \"Dubai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dubai",
+                  "offset": 50
+                }
+              ],
+              "location": "BookingsDotComImpl.i_should_able_to_see_all_the_available_hotels_in(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@HotelSearch"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7264688490,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BookingsDotComImpl.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To Check the Hotel search for a given city",
+        "description": "",
+        "id": "to-verify-the-hotel-search-in-bookings.com;to-check-the-hotel-search-for-a-given-city",
+        "after": [
+          {
+            "result": {
+              "duration": 1644402253,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BookingsDotComImpl.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46644897408,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on the Hotel Search Result Page for the city \"Dubai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dubai",
+                  "offset": 51
+                }
+              ],
+              "location": "BookingsDotComImpl.i_am_on_the_Hotel_Search_Result_Page_for_the_city(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6249792099,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I selects a hotel from the Search Result Page",
+            "match": {
+              "location": "BookingsDotComImpl.i_selects_a_hotel_from_the_Search_Result_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 690250092,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should get the details of the selected hotel",
+            "match": {
+              "location": "BookingsDotComImpl.i_should_get_the_details_of_the_selected_hotel()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@HotelSelection"
+          }
+        ]
+      }
+    ],
+    "name": "To verify the Hotel Search in Bookings.com",
+    "description": "",
+    "id": "to-verify-the-hotel-search-in-bookings.com",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/BookingsSearchHotel.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BookingsMobileTest"
+      }
+    ]
+  }
+]

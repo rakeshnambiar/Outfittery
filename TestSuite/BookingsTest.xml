@@ -1,0 +1,13 @@
+<suite name="BookingsSuite" verbose="1" parallel="none" thread-count="1">
+	<test name="Bookings Test1">
+		<groups>
+			<run>
+				<include name="Regression"/>
+				<Exclude name="SIT"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.bookings.auto.test.Steps.BookingsDotComTestNGImpl"/>
+		</classes>
+	</test>
+</suite>
